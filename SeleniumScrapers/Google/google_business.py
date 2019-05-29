@@ -54,6 +54,7 @@ def parse_data(driver):
 
 
 if __name__ == '__main__':
+    """ Scrape website, phone num, etc from Google [for business keywords] """
     parser = argparse.ArgumentParser(description='Scrapes Hotel Reviews from Google')
     parser.add_argument('-hd', '--headless', help='Run in headless or not [Default False]', nargs='?', default=False,
                         type=bool)

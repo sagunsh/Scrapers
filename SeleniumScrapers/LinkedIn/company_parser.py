@@ -83,6 +83,7 @@ def parse_company_from_file(driver, file):
 
 
 if __name__ == '__main__':
+    """ Scrape Company details from LinkedIn """
     parser = argparse.ArgumentParser(description='Parses a company page')
     parser.add_argument('-hd', '--headless', help='Run in headless or not [Default False]',
                         nargs='?', default=False, type=bool)

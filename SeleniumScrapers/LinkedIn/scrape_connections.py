@@ -52,6 +52,7 @@ def scrape_connections(driver, max_connections):
 
 
 if __name__ == '__main__':
+    """ Scrape LinkedIn Connection of an Account """
     parser = argparse.ArgumentParser(description='Scrapes your Linkedin connections')
     parser.add_argument('-n', '--number', help='Number of connections to scrape [Default 100]',
                         nargs='?', default=100, type=int)
